@@ -1,0 +1,408 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #A33A47;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header img {
+    position: absolute;
+    left: 20px;
+}
+
+nav {
+    background-color: #fffcf7;
+    padding: 10px 0;
+    text-align: center;
+    display: block;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #A33A47;
+    text-align: center;
+    font-family: 'HORIZON', sans-serif;
+    color: white;
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+}
+
+/* Page-Specific Styles */
+
+.home {
+    background-color: #f2eeba;
+}
+
+.about {
+    background-color: #f4db78;
+}
+
+.education {
+    background-color: #f2eeba;
+}
+
+.work-experience {
+    background-color: #f4db78;
+}
+
+.achievement {
+    background-color: #f2eeba;
+}
+
+.skills {
+    background-color: #f4db78;
+}
+
+.interest {
+    background-color: #f2eeba;
+}
+
+.references{
+    background-color: #fff;
+}
+
+.home-content {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    padding: 50px;
+}
+
+.home-content img {
+    max-width: 200px;
+    border-radius: 50%;
+    padding: 50px;
+}
+
+.home-content .info {
+    max-width: 600px;
+    padding: 40px;
+}
+
+.home-content .info h2 {
+    font-size: 2em;
+    margin: 0.5em 0;
+}
+
+.home-content .info p {
+    margin: 0.2em 0;
+}
+
+.home-content .info a {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    background-color: #A33A47;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+/* about page style */
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    padding: 30px;
+    /* margin: auto; */
+    background-color: #f4db78;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    min-height: 50vh;
+}
+
+.about-content .info h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.about-content .info p{
+    text-align: justify;
+}
+
+/* education page */
+
+.education {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* Adjust columns based on content */
+    gap: 20px;
+}
+
+.education-item {
+    background-color: #f2eeba;
+    padding: 1em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.education-item h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.education-item p {
+    margin: 0.5em 0;
+}
+
+.education-item img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 1em;
+}
+
+/* Work Experience Page Styles */
+
+.work-experience {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 0px;
+}
+
+.year {
+    background-color: #f4db78;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.year h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.experience {
+    background-color: #f2eeba;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.experience h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.experience p {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.experience img {
+    max-width: 100%;
+    max-height: 150px;
+    border-radius: 10px;
+    margin: 20px auto 0; /* Top margin of 20px, auto left and right margins */
+    display: block;
+}
+
+/* Achievement Page Styles */
+body.achievement {
+    background-color: #f2eeba;
+}
+
+main {
+    padding: 2em;
+}
+
+/* Achievement Page Styles */
+body.achievement {
+    background-color: #f2eeba;
+}
+
+main {
+    padding: 2em;
+}
+
+/* Achievement Page Styles */
+
+body.achievement {
+    background-color: #f2eeba;
+}
+
+.flexbox-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.achievements {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.achievement-item {
+    background-color: #f4db78;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.achievement-item:nth-child(odd) {
+    background-color: #f2eeba;
+}
+
+.achievement-item h2 {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+    text-align: center;
+}
+
+.certificates {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.arrow {
+    cursor: pointer;
+    font-size: 2rem;
+    user-select: none;
+    padding: 0 10px;
+}
+
+.certificate-display {
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.certificate {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: none;
+}
+
+.certificate.active {
+    display: block;
+}
+
+
+/* Page-Specific Styles */
+.skills-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.skill {
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 40px;
+    background-color: #ffffff;
+    padding: 2em;
+    border-radius: 30px;
+}
+
+.skill .skill-name {
+    font-size: 18px;
+}
+
+.skill .skill-level {
+    font-size: 18px;
+    color: #0a0a0a;
+    /* Adjust color as needed */
+    text-align: right;
+}
+
+.skills {
+    text-align: center;
+}
+
+/* Interests Page Styles */
+body.interests {
+    background-color: #f2eeba;
+}
+
+.interest-item {
+    background-color: #fff;
+    /* Adjust background color as needed */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.interest-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.interest-item h2 {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+
+.interest-item p {
+    font-size: 1.1em;
+    margin-top: 10px;
+    color: #666;
+}
+
+.references {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #f4db78;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #0a0a0a;
+    background-color: #f2eeba;
+}
+th {
+    background-color: #fff;
+}
